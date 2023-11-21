@@ -1,0 +1,84 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+color: white;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+#main{
+width: 100%;
+}
+#container-first{
+position: relative;
+height: 100vh;
+width: 100%;
+background-color: black;
+z-index: 99;
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .left img{
+    width: 250px;
+}
+nav .center{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: -170px;
+}
+nav .center h3{
+    font-weight: 500;
+}
+nav .right{
+    margin-right: 20px;
+}
+nav .right button{
+    padding: 8px 22px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 5px;
+}
+.text{
+    position: absolute;
+    /* background-color: blanchedalmond; */
+    width: 100%;
+    height: calc(100vh - 10vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 69;
+}
+.text h1{
+    line-height: 130px;
+    font-size: 100px;
+}
+.text h1 span{
+    background-color: brown;
+    padding: 10px 22px;
+    border-radius: 50px;
+}
+.images{
+    position: absolute;
+    width: 15%;
+    top: 14%;
+    left: 13%;
+    z-index: -1;
+    border-radius: 30px;
+}
+.images-sec{
+    width: 15%;
+    position: absolute;
+    bottom: 14%;
+    right: 14%;
+    border-radius: 30px;
+}
